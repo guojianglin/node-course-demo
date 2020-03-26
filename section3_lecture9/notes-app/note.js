@@ -9,7 +9,7 @@ const addNote = (title, body) => {
 
     const noteData = loadNotes();
 
-
+    debugger
     const duplicateNote = noteData.find(item => item.title === title)
 
     if (duplicateNote != undefined) {
